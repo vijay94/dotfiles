@@ -238,6 +238,26 @@ node_modules
 temp/
 Thumbs.db
 tmp/
+/.tabnine-enterprise/
+/.sdkman/
+/.nvm/
+/.expo/
+/.composer/
+/.3T
+/.app-store/
+/.mongodb/
+/.config/github-copilot
+/IdeaSnapshots
+/.config/flutter/tool_state
+/.config/yarn/
+/.dart-tool/
+/.dart/
+/.emulator_console_auth_token
+/.flutter
+/.keras/keras.json
+/.python_history
+/.rest-client/
+/.conda/environments.txt
 
 # files that are symlinked from the dotfiles repo
 /.aliases

@@ -6,7 +6,7 @@
 
 # Note: Even though this will show up twice in `git config -l` - it will still be overridden based on the order of the includeIf lines below (last matching configuration wins). Utility subcommand to find out which config wins: `git who`
 [includeIf "gitdir/i:~/"]
-  path = ~/.gitconfig-oss.inc
+  path = ~/.gitconfig_mac
 [alias]
   # print the current directory from the context
   currentDir = rev-parse --show-toplevel

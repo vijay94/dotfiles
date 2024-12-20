@@ -57,29 +57,22 @@ brew 'tldr'
 cask 'aldente'
 cask 'appcleaner'
 cask 'arc'
-cask 'brave-browser'
+cask 'bruno'
 cask 'clocker'
-cask 'firefox@nightly' #, greedy: true
+cask 'dbeaver-community'
 cask 'font-meslo-lg-nerd-font'
+cask 'intellij-idea'
 cask 'iterm2'
-cask 'itsycal'
 cask 'jordanbaird-ice'
 cask 'keepassxc@beta'
 cask 'keepingyouawake'
 cask 'keybase'
 cask 'keycastr'
-cask 'libreoffice'
-cask 'monolingual'
-cask 'notunes'
-cask 'ollama', restart_service: :changed
-cask 'onyx'
-cask 'protonvpn'
 cask 'rancher'
 cask 'raycast'
-cask 'silicon' if is_arm
 cask 'stats'
 cask 'the-unarchiver'
-cask 'vscodium@insiders'   # TODO: Doesn't handle 'Remote Containers' and GH-based auto-syncing when compared to VSCode
+cask 'visual-studio-code'
 cask 'zen-browser@twilight'
 cask 'zoom'
 
@@ -96,6 +89,7 @@ if is_vscode_installed
   # vscode 'vscjava.vscode-java-pack'
   # vscode 'vscjava.vscode-java-test'
   # vscode 'vscjava.vscode-lombok'
+  vscode 'bradlc.vscode-tailwindcss'
   vscode 'brandonkirbyson.vscode-animations'
   vscode 'britesnow.vscode-toggle-quotes'
   vscode 'codezombiech.gitignore'
@@ -107,6 +101,8 @@ if is_vscode_installed
   vscode 'editorconfig.editorconfig'
   vscode 'esbenp.prettier-vscode'
   vscode 'genuitecllc.codetogether'
+  vscode 'github.copilot'
+  vscode 'github.copilot-chat'
   vscode 'ibm.output-colorizer'
   vscode 'mechatroner.rainbow-csv'
   vscode 'mikestead.dotenv'
@@ -118,7 +114,6 @@ if is_vscode_installed
   vscode 'rebornix.ruby'
   vscode 'redhat.vscode-yaml'
   vscode 'richie5um2.vscode-sort-json'
-  vscode 'shan.code-settings-sync'
   vscode 'tchayen.markdown-links'
   vscode 'tyriar.sort-lines'
   vscode 'vscode-icons-team.vscode-icons'
@@ -158,6 +153,7 @@ end
 # brew 'reattach-to-user-namespace' # Needed if using tmux (to be able to access the macos clipboard from within tmux)
 
 # ---- general utilities
+# brew 'expect'
 # brew 'fzy'
 # brew 'gradle-completion'
 # brew 'gs'   # used for compressing PDFs
